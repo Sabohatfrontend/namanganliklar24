@@ -9,8 +9,6 @@ body{
 .container{
   width: 100%;
   max-width: 1260px;
-  padding-right: 30px;
-  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -81,14 +79,18 @@ body{
   font-weight:400;
   font-size: 13px;
   line-height: 15px;
-  color: #000000;
   text-decoration: none;
   border-radius: 50%;
 
 }
 
-.link-action{
+.uz{
   background-color: #fff;
+  color: #000000;
+}
+
+.ru{
+    color: #A6A6A6;
 }
 
 .main-link{
@@ -116,6 +118,12 @@ body{
   margin-bottom: 0;
   padding-bottom: 20px;
   border-bottom: 1px solid #D1D1D1;
+  padding-left: 0;
+ }
+
+.sitenav-item{
+
+
 }
 
 .sitenav-link{
