@@ -1,53 +1,64 @@
 *{
   box-sizing: border-box;
 }
+
 body{
   font-family: "Rubik", "Arial", sans-serif;
 }
+
 .container{
-width: 100%;
-max-width: 1260px;
-padding-right: 30px;
-padding-left: 30px;
-margin-right: auto;
-margin-left: auto;
+  width: 100%;
+  max-width: 1260px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .restangle{
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #F6F6F6;
 }
+
 .restangle-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .link-content{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .heading-img{
-margin-right: 41px;
+  margin-right: 41px;
 }
+
 .valuta-text{
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
+
 .valuta-text:not(:last-child){
   margin-right: 25px;
 }
+
 .valuta{
   color: #2959CE;
 }
+
 .search{
   padding: 15px 192px 13px  41px;
   border-radius: 60px;
@@ -57,12 +68,14 @@ margin-right: 41px;
   margin-bottom: 0;
   margin-right: 25px;
   }
+
 .link-lang-content{
   padding: 10px 3px;
   border-radius: 39px;
   background-color: #DCE6FF;
   margin-right: 25px;
 }
+
 .link-lang{
   padding: 7px;
   font-weight:400;
@@ -73,6 +86,7 @@ margin-right: 41px;
   border-radius: 50%;
   background-color: #fff;
 }
+
 .main-link{
   padding: 13px 20px;
   background-color: #7296EC;
@@ -83,11 +97,13 @@ margin-right: 41px;
   color: #FFFFFF;
   text-decoration: none;
 }
+
 .sitenav{
   background-color: #fff;
   padding-top: 30px;
   padding-bottom: 40px;
   }
+
 .sitenav-list{
   display: flex;
   list-style: none;
@@ -97,6 +113,7 @@ margin-right: 41px;
   padding-bottom: 20px;
   border-bottom: 1px solid #D1D1D1;
 }
+
 .sitenav-link{
   color: #7F7F7F;
   text-decoration: none;
