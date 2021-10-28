@@ -58,7 +58,7 @@ img{
 
 .button-orange {
   font-size: 20px;
-line-height: 24px;
+  line-height: 24px;
   background-color: #F78B3B;
 }
 
@@ -109,6 +109,7 @@ line-height: 24px;
 .site-header-logo:active{
   opacity: 0.6;
 }
+
 /* CURRENCY RATES */
 .currency-rates {
   display: flex;
@@ -118,9 +119,11 @@ line-height: 24px;
   margin-right: auto;
   list-style: none;
 }
+
 .currency-rates-item:not(:last-child) {
   margin-right: 25px;
 }
+
 .currency-rates-type {
   color: #2959ce;
 }
@@ -139,6 +142,7 @@ line-height: 24px;
   line-height: normal;
   font-size: 14px;
 }
+
 .lang-toggle {
   display: flex;
   padding: 3px;
@@ -182,6 +186,7 @@ line-height: 24px;
   margin: 0;
   list-style: none;
 }
+
 .sitenav-item{
   margin-top: 4px;
   margin-bottom: 4px;
@@ -261,8 +266,8 @@ line-height: 24px;
 }
 
 .article-card-text {
- margin-top: 0;
- margin-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 .article-card-img {
@@ -286,6 +291,7 @@ line-height: 24px;
   margin-right: 10px;
   border-radius: 5px;
 }
+
 .artical-card-source-time {
   font-size: 12px;
   line-height: normal;
@@ -347,25 +353,31 @@ line-height: 24px;
 }
 
 .heading-section {
-padding: 20px 20px 25px 17px;
-background-color: #f6f6f6;
-width: 393px;
-border-radius: 15px;
-margin-top: 68px;
-margin-bottom: 10px;
+  padding: 20px 20px 25px 17px;
+  background-color: #f6f6f6;
+  width: 393px;
+  border-radius: 15px;
+  margin-top: 68px;
+  margin-bottom: 10px;
 }
+
 .heading-section-header {
   font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
-margin-top: 0;
-margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
+
 .heading-section-article {
   padding-bottom: 20px;
+}
+
+.heading-section-article:not(:last-child) {
   border-bottom: 1px solid #D2D2D2;
   }
+
 .heading-section-title {
   margin-top: 0;
   margin-bottom: 8px;
@@ -381,7 +393,7 @@ margin-bottom: 25px;
 }
 
 .add-img{
-width: 393px;
-height: 338px;
-border-radius: 15px;
+  width: 393px;
+  height: 338px;
+  border-radius: 15px;
 }
