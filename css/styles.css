@@ -434,6 +434,7 @@ ul{
 .site-footer-logo-img {
   width: 264px;
   height: 28px;
+  object-fit: contain;
 }
 
 .site-footer-top {
