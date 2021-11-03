@@ -448,9 +448,6 @@ ul{
 .site-footer-lists:not(:last-child){
   margin-right: 100px;
 }
-.site-footer-item {
-
-}
 
 .site-footer-item:not(:last-child){
   margin-bottom: 20px;
@@ -477,9 +474,6 @@ ul{
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-}
-
-.social {
 }
 
 .social-link {
