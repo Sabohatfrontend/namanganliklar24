@@ -397,7 +397,7 @@ ul{
 
 .heading-section-article:not(:last-child) {
   border-bottom: 1px solid #D2D2D2;
-  }
+}
 
 .heading-section-title {
   margin-top: 0;
@@ -422,8 +422,14 @@ ul{
 /* SITE-FOOTER */
 .site-footer{
   background-color: #7297EF;
-  padding: 40px 221px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #fff;
+}
+
+.site-footer-container{
+  padding-left: 101px;
+  padding-right: 101px;
 }
 
 .site-footer-logo {
@@ -454,14 +460,17 @@ ul{
 }
 .site-footer-list-content {
   display: flex;
+  width: 606px;
 }
 .site-footer-lists {
+  width: 50%;
   padding-left: 0;
   list-style: none;
+  flex-grow: 1;
 }
 
 .site-footer-lists:not(:last-child){
-  margin-right: 100px;
+  margin-right: 10px;
 }
 
 .site-footer-item:not(:last-child){
