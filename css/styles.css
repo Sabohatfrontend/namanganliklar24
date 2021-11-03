@@ -427,7 +427,7 @@ ul{
 }
 
 .site-footer-logo {
-  display: flex;
+  display: inline-flex;
   margin-bottom: 15px;
 }
 
