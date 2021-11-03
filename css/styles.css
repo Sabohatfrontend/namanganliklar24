@@ -63,7 +63,9 @@ img{
 }
 
 .button-grey{
-  padding: 17px 343px;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 17px;
   margin-top: 17px;
   margin-bottom: 10px;
   background-color: #eaeaea;
