@@ -57,6 +57,7 @@ ul{
 .button:active{
   opacity: 0.6;
 }
+
 .button-primary {
   background-color: #7296ec;
 }
@@ -162,6 +163,16 @@ ul{
   line-height: normal;
   font-size: 14px;
 }
+
+/* .global-search-form-icon{
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/search-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  content: icon;
+} */
 
 .lang-toggle {
   display: flex;
@@ -458,10 +469,12 @@ ul{
   font-size: 12px;
   line-height: 19px;
 }
+
 .site-footer-list-content {
   display: flex;
   width: 606px;
 }
+
 .site-footer-lists {
   width: 50%;
   padding-left: 0;
@@ -507,6 +520,7 @@ ul{
 .social-link:not(:last-child){
   margin-right: 29px;
 }
+
 .social-icon {
   width: 25px;
   height: 25px;
