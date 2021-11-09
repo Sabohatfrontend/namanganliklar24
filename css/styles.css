@@ -162,17 +162,10 @@ ul{
   border-radius: 60px;
   line-height: normal;
   font-size: 14px;
-}
-
-/* .global-search-form-icon{
-  width: 16px;
-  height: 16px;
   background-image: url("../img/search-icon.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  content: icon;
-} */
+  background-position: top 13px left 15px;
+}
 
 .lang-toggle {
   display: flex;
