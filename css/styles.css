@@ -531,8 +531,14 @@ ul{
   display: block;
 }
 /* CONTACT STYLES */
+.info-container{
+  display: flex;
+  align-items: center;
+}
+
 .form-content {
   width: 696px;
+  margin-right: 10px;
 }
 
 .write-us-header{
@@ -545,10 +551,14 @@ ul{
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   border-radius: 10px;
+}
+
+.input-border::placeholder{
+  font-weight: normal;
   font-size: 16px;
-line-height: 19px;
-color: #000000;
-opacity: 0.5;
+  line-height: 19px;
+  color: #000000;
+  opacity: 0.5;
 }
 
 .name-phone-content{
@@ -574,4 +584,37 @@ opacity: 0.5;
   min-height: 180px;
   resize: vertical;
   margin-bottom: 10px;
+}
+
+.information-content {
+  width: 494px;
+  min-height: 310px;
+  background: #F6F6F6;
+  border-radius: 10px;
+  padding: 40px 25px;
+  color: #000000;
+  margin-top: -18px;
+}
+
+.information-article:not(:last-child){
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.information-article:not(:first-child){
+  padding-top: 20px;
+}
+
+.information-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.information-text{
+  margin-top: 0;
+  margin-bottom: 0;
 }
