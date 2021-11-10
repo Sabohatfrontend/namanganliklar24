@@ -77,6 +77,11 @@ ul{
   color: #000;
 }
 
+.button-push{
+  padding: 17px 30px;
+  float: right;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -568,4 +573,5 @@ opacity: 0.5;
   width: 100%;
   min-height: 180px;
   resize: vertical;
+  margin-bottom: 10px;
 }
