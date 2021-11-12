@@ -599,7 +599,6 @@ ul{
   background: #F6F6F6;
   border-radius: 10px;
   padding: 40px 25px;
-  color: #000000;
 }
 
 .information-article:not(:last-child){
@@ -618,6 +617,12 @@ ul{
   color: #000000;
   margin-top: 0;
   margin-bottom: 7px;
+}
+
+.information-link{
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
 }
 
 .information-text{
