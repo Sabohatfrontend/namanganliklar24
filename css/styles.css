@@ -351,9 +351,12 @@ ul{
 
 .world-grid{
   margin-bottom: -10px;
-  margin-right: 10px;
+
 }
 
+.news-world{
+  margin-right: 10px;
+}
 .new-world-header{
   margin-top: 0;
   margin-bottom: 20px;
@@ -387,7 +390,7 @@ ul{
   background-color: #f6f6f6;
   width: 393px;
   border-radius: 15px;
-  margin-top: 68px;
+  margin-top: 48px;
   margin-bottom: 10px;
 }
 
