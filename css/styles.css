@@ -401,13 +401,16 @@ ul{
 }
 
 .heading-section-article {
-  padding-bottom: 20px;
+   padding-bottom: 20px;
 }
 
 .heading-section-article:not(:last-child) {
   border-bottom: 1px solid #D2D2D2;
 }
 
+.heading-section-article:not(:nth-child(2)){
+  padding-top: 20px;
+}
 .heading-section-title {
   margin-top: 0;
   margin-bottom: 8px;
