@@ -355,7 +355,9 @@ ul{
 }
 
 .new-world-header{
-  font-size: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #000;
